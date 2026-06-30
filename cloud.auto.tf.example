@@ -1,0 +1,9 @@
+terraform {
+  cloud {
+    organization = "REPLACE_WITH_TFC_ORG"
+
+    workspaces {
+      name = "REPLACE_WITH_TFC_WORKSPACE"
+    }
+  }
+}
